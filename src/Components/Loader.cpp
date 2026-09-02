@@ -34,6 +34,7 @@
 #include "Modules/MapDump.hpp"
 #include "Modules/MapRotation.hpp"
 #include "Modules/Materials.hpp"
+#include "Modules/Missile.hpp"
 #include "Modules/ModList.hpp"
 #include "Modules/ModelCache.hpp"
 #include "Modules/ModelSurfs.hpp"
@@ -48,6 +49,7 @@
 #include "Modules/RawFiles.hpp"
 #include "Modules/RawMouse.hpp"
 #include "Modules/RCon.hpp"
+#include "Modules/RemoteControl.hpp"
 #include "Modules/Rumble.hpp"
 #include "Modules/Security.hpp"
 #include "Modules/ServerCommands.hpp"
@@ -141,6 +143,7 @@ namespace Components
 		Register(new Maps());
 		Register(new Materials());
 		Register(new Menus());
+		Register(new Missile());
 		Register(new ModList());
 		Register(new ModelCache());
 		Register(new ModelSurfs());
@@ -155,6 +158,7 @@ namespace Components
 		Register(new RawFiles());
 		Register(new RawMouse());
 		Register(new RCon());
+		Register(new RemoteControl());
 		Register(new Renderer());
 		Register(new Scheduler());
 		Register(new Security());
